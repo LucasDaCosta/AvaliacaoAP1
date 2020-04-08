@@ -1,0 +1,18 @@
+git clone https://github.com/LucasDaCosta/AvaliacaoAP1.git
+cd AvaliacaoAP1
+touch ap1
+touch ap1-1
+touch ap1-2
+git add
+git commit -m "ap1"
+git push
+
+git pull origin
+git checkout revisao
+git push
+git add ap1-2.txt
+git commit -m "ap1-2"
+
+git checkout master
+git pull
+git push
